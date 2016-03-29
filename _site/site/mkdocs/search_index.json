@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Project\n\n\nA human-specific AS3MT isoform and BORCS7 are molecular risk factors in the 10q24.32 schizophrenia locus\n\n\nAuthors\n\n\nMing Li, Andrew E. Jaffe, Richard E. Straub, Ran Tao, Joo Heon Shin, Yanhong Wang, Qiang Chen, Chao Li, Yankai Jia, Kazutaka Ohi, Brady J. Maher, Nicholas J. Brandon, Alan Cross, Joshua G. Chenoweth, Daniel J. Hoeppner, Huijun Wei, Thomas M. Hyde, Ronald McKay, Joel E. Kleinman, Daniel R. Weinberger\n\n\nAbstract\n\n\nGenome-wide association studies (GWAS) have reported many SNPs associated with psychiatric disorders, but knowledge is lacking regarding molecular mechanisms. Here, we show that risk alleles spanning multiple genes across the 10q24.32 schizophrenia locus are associated in human brain selectively with increased expression of both \nBORCS7\n and a previously uncharacterized human-specific \nAS3MT\n isoform (\nAS3MT\nd2d3\n) that lacks arsenic methyltransferase activity and is more abundant in individuals with schizophrenia than in controls. Conditional expression analysis suggests that the \nBORCS7\n and \nAS3MT\nd2d3\n signals are largely independent. GWAS risk SNPs across this region are linked with a variable number tandem repeat (VNTR) polymorphism in the first exon of \nAS3MT\n which is associated with expression of \nAS3MT\nd2d3\n in both Caucasian and African American samples. The VNTR genotype predicts activity in luciferase assays and DNA methylation within the \nAS3MT\n gene. Both AS3MT\nd2d3\n and \nBORCS7\n are expressed in adult human neurons and astrocytes and are upregulated during human stem cell differentiation toward neuronal fates. Our results provide a molecular explanation for the prominent 10q24.32 locus association, including a novel and evolutionarily recent protein involved in early brain development and risk for psychiatric illness.\n\n\nLinks", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#project", 
+            "text": "A human-specific AS3MT isoform and BORCS7 are molecular risk factors in the 10q24.32 schizophrenia locus", 
+            "title": "Project"
+        }, 
+        {
+            "location": "/#authors", 
+            "text": "Ming Li, Andrew E. Jaffe, Richard E. Straub, Ran Tao, Joo Heon Shin, Yanhong Wang, Qiang Chen, Chao Li, Yankai Jia, Kazutaka Ohi, Brady J. Maher, Nicholas J. Brandon, Alan Cross, Joshua G. Chenoweth, Daniel J. Hoeppner, Huijun Wei, Thomas M. Hyde, Ronald McKay, Joel E. Kleinman, Daniel R. Weinberger", 
+            "title": "Authors"
+        }, 
+        {
+            "location": "/#abstract", 
+            "text": "Genome-wide association studies (GWAS) have reported many SNPs associated with psychiatric disorders, but knowledge is lacking regarding molecular mechanisms. Here, we show that risk alleles spanning multiple genes across the 10q24.32 schizophrenia locus are associated in human brain selectively with increased expression of both  BORCS7  and a previously uncharacterized human-specific  AS3MT  isoform ( AS3MT d2d3 ) that lacks arsenic methyltransferase activity and is more abundant in individuals with schizophrenia than in controls. Conditional expression analysis suggests that the  BORCS7  and  AS3MT d2d3  signals are largely independent. GWAS risk SNPs across this region are linked with a variable number tandem repeat (VNTR) polymorphism in the first exon of  AS3MT  which is associated with expression of  AS3MT d2d3  in both Caucasian and African American samples. The VNTR genotype predicts activity in luciferase assays and DNA methylation within the  AS3MT  gene. Both AS3MT d2d3  and  BORCS7  are expressed in adult human neurons and astrocytes and are upregulated during human stem cell differentiation toward neuronal fates. Our results provide a molecular explanation for the prominent 10q24.32 locus association, including a novel and evolutionarily recent protein involved in early brain development and risk for psychiatric illness.", 
+            "title": "Abstract"
+        }, 
+        {
+            "location": "/#links", 
+            "text": "", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/data/", 
+            "text": "Processed Data\n\n\nThe easiest way to access the underlying data from this paper is to use \nthis R object\n which contains:\n\n\n\n\nPhenotype data: \npd\n,  rows are subjects and columns are covariates and identifiers. Identifiers for the expression data are RNA Numbers (\nRxxxx\n) and identifiers for the genotype data are Brain Numbers (\nBrxxx\n). Corresponding text file: \npd\n\n\nGene-level data: \ngeneRpkm\n and \ngeneCounts\n correspond to gene RPKM and count values respectively and have genes/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). \ngeneMap\n is the corresponding annotation information. Corresponding text files: \ngeneRpkm\n, \ngeneMap\n\n\nExon-level data: \nexonRpkm\n and \nexonCounts\n correspond to exon RPKM and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). \nexonMap\n is the corresponding annotation information. Corresponding text files: \nexonRpkm\n, \nexonMap\n\n\nJunction-level data: \njRpkm\n and \njCounts\n correspond to junction RPMs and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). \njMap\n is the corresponding annotation information, which is a \nGRanges\n object. Corresponding text files: \njRpm\n, \njMap\n\n\nGenotype data: \nsnpMat\n contains the number of copies of the minor allele, and have variants down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). \nsnpInfo\n contains the corresponding annotation and GWAS statistics information. Corresponding text files: \nsnpMap\n, \nsnpInfo\n\n\n\n\nAlignment and Raw Data\n\n\nThe phenotype object has public file paths for the 2 megabase region BAM files in the 10q24.32 genomic locus, and raw gene and exon counts files, which are all hosted on AWS S3 storage.", 
+            "title": "Data"
+        }, 
+        {
+            "location": "/data/#processed-data", 
+            "text": "The easiest way to access the underlying data from this paper is to use  this R object  which contains:   Phenotype data:  pd ,  rows are subjects and columns are covariates and identifiers. Identifiers for the expression data are RNA Numbers ( Rxxxx ) and identifiers for the genotype data are Brain Numbers ( Brxxx ). Corresponding text file:  pd  Gene-level data:  geneRpkm  and  geneCounts  correspond to gene RPKM and count values respectively and have genes/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data).  geneMap  is the corresponding annotation information. Corresponding text files:  geneRpkm ,  geneMap  Exon-level data:  exonRpkm  and  exonCounts  correspond to exon RPKM and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data).  exonMap  is the corresponding annotation information. Corresponding text files:  exonRpkm ,  exonMap  Junction-level data:  jRpkm  and  jCounts  correspond to junction RPMs and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data).  jMap  is the corresponding annotation information, which is a  GRanges  object. Corresponding text files:  jRpm ,  jMap  Genotype data:  snpMat  contains the number of copies of the minor allele, and have variants down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data).  snpInfo  contains the corresponding annotation and GWAS statistics information. Corresponding text files:  snpMap ,  snpInfo", 
+            "title": "Processed Data"
+        }, 
+        {
+            "location": "/data/#alignment-and-raw-data", 
+            "text": "The phenotype object has public file paths for the 2 megabase region BAM files in the 10q24.32 genomic locus, and raw gene and exon counts files, which are all hosted on AWS S3 storage.", 
+            "title": "Alignment and Raw Data"
+        }, 
+        {
+            "location": "/contact/", 
+            "text": "Support or Contact\n\n\nHaving trouble accessing the data? Contact \nAndrew E Jaffe\n or \nMing Li\n and we\u2019ll help you sort it out. For questions about the paper, please email the corresponding author, \nDaniel Weinberger", 
+            "title": "Contact"
+        }, 
+        {
+            "location": "/contact/#support-or-contact", 
+            "text": "Having trouble accessing the data? Contact  Andrew E Jaffe  or  Ming Li  and we\u2019ll help you sort it out. For questions about the paper, please email the corresponding author,  Daniel Weinberger", 
+            "title": "Support or Contact"
+        }
+    ]
+}
