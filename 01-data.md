@@ -2,7 +2,7 @@
 layout: page
 title: Data
 group: navigation
-permalink: "data.html"
+permalink: "http://research.libd.org/as3mt-paper-data.html"
 ---
 {% include JB/setup %}
 
