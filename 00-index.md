@@ -21,4 +21,5 @@ Support or Contact
 Having trouble accessing the data? Contact [Andrew E Jaffe](mailto:andrew.jaffe@libd.org) or [Ming Li](mailto:ming.li@libd.org) and we’ll help you sort it out.
 
 ------------------
-<img alt="LIBD" align="left" src="http://aejaffe.com/media/LIBD_logo.jpg" width=245 height=142/>
+<a href="http://libd.org">
+<img src="images/LIBD_logo.jpg" alt="Drawing" style="width: 250px;"/>

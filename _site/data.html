@@ -82,10 +82,12 @@
     
 <h1 id="data-availability">Data Availability</h1>
 
+<h2 id="processed-data">Processed Data</h2>
+
 <p>The easiest way to access the underlying data from this paper is to use <a href="http://LieberInstitute.github.io/as3mt-paper/rdas/rawAndRpkmCounts_plusGenotype_10q24_DLPFC_n738.rda">this R object</a> which contains:</p>
 
 <ol>
-  <li>Phenotype data: <code>pd</code>,  rows are subjects and columns are covariates and identifiers. Identifiers for the expression data are RNA Numbers (<code>Rxxxx</code>) and identifiers for the genotype data are Brain Numbers (<code>Brxxx</code>). Corresponding text file: <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneRpkm_n738_LIBD.csv">pd</a></li>
+  <li>Phenotype data: <code>pd</code>,  rows are subjects and columns are covariates and identifiers. Identifiers for the expression data are RNA Numbers (<code>Rxxxx</code>) and identifiers for the genotype data are Brain Numbers (<code>Brxxx</code>). Corresponding text file: <a href="http://LieberInstitute.github.io/as3mt-paper/data/phenotype_n738_LIBD.csv">pd</a></li>
   <li>Gene-level data: <code>geneRpkm</code> and <code>geneCounts</code> correspond to gene RPKM and count values respectively and have genes/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>geneMap</code> is the corresponding annotation information. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneRpkm_n738_LIBD.csv">geneRpkm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneAnnotation_Ensembl75.csv">geneMap</a></li>
   <li>Exon-level data: <code>exonRpkm</code> and <code>exonCounts</code> correspond to exon RPKM and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>exonMap</code> is the corresponding annotation information. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/exonRpkm_n738_LIBD.csv">exonRpkm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/exonAnnotation_Ensembl75.csv">exonMap</a></li>
   <li>Junction-level data: <code>jRpkm</code> and <code>jCounts</code> correspond to junction RPMs and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>jMap</code> is the corresponding annotation information, which is a <code>GRanges</code> object. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/junctionRpm_n738_LIBD.csv">jRpm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/junctionAnnotation_LIBD.csv">jMap</a></li>
@@ -99,7 +101,8 @@
 <p>Having trouble accessing the data? Contact <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#119;&#046;&#106;&#097;&#102;&#102;&#101;&#064;&#108;&#105;&#098;&#100;&#046;&#111;&#114;&#103;">Andrew E Jaffe</a> or <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#105;&#110;&#103;&#046;&#108;&#105;&#064;&#108;&#105;&#098;&#100;&#046;&#111;&#114;&#103;">Ming Li</a> and we’ll help you sort it out.</p>
 
 <hr />
-<p>&lt;img alt=”LIBD” align=”left” src=”http://aejaffe.com/media/LIBD_logo.jpg” width=245 height=142/&gt;</p>
+<p><a href="http://libd.org">
+<img src="images/LIBD_logo.jpg" alt="Drawing" style="width: 250px;" /></a></p>
 
   </div>
 </div>
