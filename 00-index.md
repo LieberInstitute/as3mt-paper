@@ -2,7 +2,7 @@
 layout: page
 title: AS3MT Paper
 group: navigation
-permalink: "index.html"
+permalink: "as3mt-paper"
 ---
 {% include JB/setup %}
 
