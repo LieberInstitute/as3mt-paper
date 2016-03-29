@@ -3,4 +3,4 @@ pages:
 - Home: index.md
 - Data: data.md
 - Contact: contact.md
-theme: readthedocs
+theme: cinder
