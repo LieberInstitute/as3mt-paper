@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Data Availability
+title: Data
 group: navigation
-permalink: "as3mt-paper/data.html"
+permalink: "data.html"
 ---
 {% include JB/setup %}
 
