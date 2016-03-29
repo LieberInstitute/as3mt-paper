@@ -15,5 +15,4 @@ The phenotype object has public file paths for the 2 megabase region BAM files i
 
 
 ------------------
-<a href="http://libd.org">
-<img src="research.libd.org/as3mt-paper/images/LIBD_logo.jpg" alt="LIBD" style="width: 250px;"/>
+<a href="http://libd.org"> <img src="http://research.libd.org/as3mt-paper/images/LIBD_logo.jpg" width="200" align="middle"/>

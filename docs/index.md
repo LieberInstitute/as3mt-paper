@@ -1,4 +1,6 @@
-## A human-specific AS3MT isoform and BORCS7 are molecular risk factors in the 10q24.32 schizophrenia locus
+## Project 
+
+**A human-specific AS3MT isoform and BORCS7 are molecular risk factors in the 10q24.32 schizophrenia locus**
 
 ### Authors
 
@@ -11,4 +13,4 @@ Genome-wide association studies (GWAS) have reported many SNPs associated with p
 ### Links
 
 ------------------
-[](images/LIBD_logo.jpg)
+<a href="http://libd.org"> <img src="http://research.libd.org/as3mt-paper/images/LIBD_logo.jpg" width="200" align="middle"/>
