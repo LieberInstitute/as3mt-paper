@@ -24,9 +24,9 @@ Alignment and Raw Data
 -------
 The phenotype object has public file paths for the 2 megabase region BAM files in the 10q24.32 genomic locus, and raw gene and exon counts files, which are all hosted on AWS S3 storage.
 
-Support or Contact
----------
-Having trouble accessing the data? Contact [Andrew E Jaffe](mailto:andrew.jaffe@libd.org) or [Ming Li](mailto:ming.li@libd.org) and we’ll help you sort it out.
+#### Support or Contact
+
+Having trouble accessing the data? Contact [Andrew E Jaffe](mailto:andrew.jaffe@libd.org) or [Ming Li](mailto:ming.li@libd.org) and we’ll help you sort it out. For questions about the paper, please email the corresponding author, [Daniel Weinberger](mailto:drweinberger@libd.org) 
 
 ------------------
 <a href="http://libd.org">
