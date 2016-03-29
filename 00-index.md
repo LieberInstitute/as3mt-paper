@@ -2,7 +2,7 @@
 layout: page
 title: Main
 group: navigation
-permalink: "index.html"
+permalink: "http://research.libd.org/as3mt-paper.html"
 ---
 {% include JB/setup %}
 
