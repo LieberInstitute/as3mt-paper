@@ -1,0 +1,6 @@
+site_name: AS3MT Paper
+pages:
+- Home: index.md
+- Data: data.md
+- Contact: contact.md
+theme: readthedocs
