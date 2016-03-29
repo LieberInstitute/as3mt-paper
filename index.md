@@ -2,7 +2,7 @@
 layout: page
 title: Main
 group: navigation
-permalink: "as3mt-paper.html"
+permalink: "index.html"
 ---
 {% include JB/setup %}
 
