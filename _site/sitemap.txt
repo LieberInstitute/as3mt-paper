@@ -1,0 +1,12 @@
+
+http://www.aejaffe.com/index.html
+http://www.aejaffe.com/people.html
+http://www.aejaffe.com/publications.html
+http://www.aejaffe.com/software.html
+http://www.aejaffe.com/teaching.html
+http://www.aejaffe.com/jobs.html
+http://www.aejaffe.com/atom-rstats.xml
+http://www.aejaffe.com/atom.xml
+http://www.aejaffe.com/rss-rstats.xml
+http://www.aejaffe.com/rss.xml
+http://www.aejaffe.com/sitemap.txt
