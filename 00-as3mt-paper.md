@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Main
+title: AS3MT Paper
 group: navigation
-permalink: "index.html"
+permalink: "as3mt-paper.html"
 ---
 {% include JB/setup %}
 
