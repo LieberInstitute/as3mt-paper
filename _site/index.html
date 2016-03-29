@@ -37,7 +37,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="/">Jaffe Lab</a>
+          <a class="brand" href="/">AS3MT Paper</a>
           <ul class="nav">
             
             
@@ -50,66 +50,6 @@
       	
       	<li class="active"><a href="/index.html" class="active">About</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/people.html">People</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/publications.html">Publications</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/software.html">Software</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/teaching.html">Teaching</a></li>
-      	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/jobs.html">Jobs</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
       
     
   
@@ -131,44 +71,34 @@
 
 <div class="row-fluid">
   <div class="span12">
-    <h2>Overview</h2>
+    
+<h2 id="a-human-specific-as3mt-isoform-and-borcs7-are-molecular-risk-factors-in-the-10q2432-schizophrenia-locus">A human-specific AS3MT isoform and BORCS7 are molecular risk factors in the 10q24.32 schizophrenia locus.</h2>
 
-<p>The Jaffe Lab is led by Andrew E Jaffe.</p>
+<p>Authors: Ming Li, Andrew E. Jaffe, Richard E. Straub, Ran Tao, Joo Heon Shin, Yanhong Wang, Qiang Chen, Chao Li, Yankai Jia, Kazutaka Ohi, Brady J. Maher, Nicholas J. Brandon, Alan Cross, Joshua G. Chenoweth, Daniel J. Hoeppner, Huijun Wei, Thomas M. Hyde, Ronald McKay, Joel E. Kleinman, Daniel R. Weinberger</p>
 
-<p>The lab is associated with the
-<a href="http://www.libd.org">Lieber Institute for Brain Development</a> and
-the <a href="http://www.jhsph.edu/departments/mental-health/">Department of Mental Health</a> at Johns Hopkins Bloomberg School of Public Health.  We are
-part of the <a href="http://ccb.jhu.edu">Center for Computational Biology</a> at Johns Hopkins University.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Genome-wide association studies (GWAS) have reported many SNPs associated with psychiatric disorders, but knowledge is lacking regarding molecular mechanisms. Here, we show that risk alleles spanning multiple genes across the 10q24.32 schizophrenia locus are associated in human brain selectively with increased expression of both <em>BORCS7</em> and a previously uncharacterized human-specific <em>AS3MT</em> isoform (<em>AS3MT<sup>d2d3</sup></em>) that lacks arsenic methyltransferase activity and is more abundant in individuals with schizophrenia than in controls. Conditional expression analysis suggests that the <em>BORCS7</em> and <em>AS3MT<sup>d2d3</sup></em> signals are largely independent. GWAS risk SNPs across this region are linked with a variable number tandem repeat (VNTR) polymorphism in the first exon of <em>AS3MT</em> which is associated with expression of <em>AS3MT<sup>d2d3</sup></em> in both Caucasian and African American samples. The VNTR genotype predicts activity in luciferase assays and DNA methylation within the <em>AS3MT</em> gene. Both AS3MT<sup>d2d3</sup> and <em>BORCS7</em> are expressed in adult human neurons and astrocytes and are upregulated during human stem cell differentiation toward neuronal fates. Our results provide a molecular explanation for the prominent 10q24.32 locus association, including a novel and evolutionarily recent protein involved in early brain development and risk for psychiatric illness.</p>
 
-<h2>Research Interests</h2>
+<h2 id="data-availability">Data Availability</h2>
 
-<p>We are a computational biology and genomics lab within the Lieber Institute for Brain Development (LIBD). We are interested in better understanding and characterizing genomics signatures in the human brain, including DNA methylation and gene expression. </p>
+<p>The easiest way to access the underlying data from this paper is to use <a href="http://LieberInstitute.github.io/as3mt-paper/rdas/rawAndRpkmCounts_plusGenotype_10q24_DLPFC_n738.rda">this R object</a> which contains:</p>
 
-<h2>Contact</h2>
+<ol>
+  <li>Phenotype data: <code>pd</code>,  rows are subjects and columns are covariates and identifiers. Identifiers for the expression data are RNA Numbers (<code>Rxxxx</code>) and identifiers for the genotype data are Brain Numbers (<code>Brxxx</code>). Corresponding text file: <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneRpkm_n738_LIBD.csv">pd</a></li>
+  <li>Gene-level data: <code>geneRpkm</code> and <code>geneCounts</code> correspond to gene RPKM and count values respectively and have genes/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>geneMap</code> is the corresponding annotation information. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneRpkm_n738_LIBD.csv">geneRpkm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/geneAnnotation_Ensembl75.csv">geneMap</a></li>
+  <li>Exon-level data: <code>exonRpkm</code> and <code>exonCounts</code> correspond to exon RPKM and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>exonMap</code> is the corresponding annotation information. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/exonRpkm_n738_LIBD.csv">exonRpkm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/exonAnnotation_Ensembl75.csv">exonMap</a></li>
+  <li>Junction-level data: <code>jRpkm</code> and <code>jCounts</code> correspond to junction RPMs and count values respectively and have exons/features down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>jMap</code> is the corresponding annotation information, which is a <code>GRanges</code> object. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/junctionRpm_n738_LIBD.csv">jRpm</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/junctionAnnotation_LIBD.csv">jMap</a></li>
+  <li>Genotype data: <code>snpMat</code> contains the number of copies of the minor allele, and have variants down the rows and subjects/samples across the columns (in the same order as the rows of the phenotype data). <code>snpInfo</code> contains the corresponding annotation and GWAS statistics information. Corresponding text files: <a href="http://LieberInstitute.github.io/as3mt-paper/data/snpMinorCounts_LIBD.csv">snpMap</a>, <a href="http://LieberInstitute.github.io/as3mt-paper/data/snp_annotation.csv">snpInfo</a></li>
+</ol>
 
-<p>Email:<br>
-&nbsp;&nbsp;&nbsp;<a href="mailto:andrew.jaffe@libd.org">andrew.jaffe@libd.org</a>
-</p>
+<h2 id="alignment-and-raw-data">Alignment and Raw Data</h2>
+<p>The phenotype object has public file paths for the 2 megabase region BAM files in the 10q24.32 genomic locus, and raw gene and exon counts files, which are all hosted on AWS S3 storage.</p>
 
-<p>
-Office:<br>
-&nbsp;&nbsp;&nbsp;LIBD: Rangos Building, 855 N Wolfe St, Ste 336.<br>
-</p>
+<h2 id="support-or-contact">Support or Contact</h2>
+<p>Having trouble accessing the data? Contact <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#110;&#100;&#114;&#101;&#119;&#046;&#106;&#097;&#102;&#102;&#101;&#064;&#108;&#105;&#098;&#100;&#046;&#111;&#114;&#103;">Andrew E Jaffe</a> or <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#105;&#110;&#103;&#046;&#108;&#105;&#064;&#108;&#105;&#098;&#100;&#046;&#111;&#114;&#103;">Ming Li</a> and we’ll help you sort it out.</p>
 
-<p>
-Mail Address:<br>
-&nbsp;&nbsp;&nbsp;Andrew Jaffe<br>
-&nbsp;&nbsp;&nbsp;Lieber Institute for Brain Development<br>
-&nbsp;&nbsp;&nbsp;Clinical Sciences Division<br>
-&nbsp;&nbsp;&nbsp;855 N Wolfe St, Room 336 <br>
-&nbsp;&nbsp;&nbsp;Baltimore, MD 21205<br>
-&nbsp;&nbsp;&nbsp;USA
-</p>
-
-<hr>
-
-<p><img alt = "LIBD" align="left" src="media/LIBD_logo.jpg" width=245 height=142/>
-<img alt = "JHSPH" align="right" src="media/jhu-bloomberg-logo.jpg" width=295 height=172/></p>
+<hr />
+<p>&lt;img alt = “LIBD” align=”left” src=”media/LIBD_logo.jpg” width=245 height=142/&gt;</p>
 
   </div>
 </div>
@@ -177,7 +107,7 @@ Mail Address:<br>
       </div>
       <hr>
       <footer>
-        <p>&copy; 2015 Andrew Jaffe
+        <p>&copy; 2016 Andrew Jaffe
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
